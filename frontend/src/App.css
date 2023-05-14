@@ -1,0 +1,109 @@
+.auth-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Стиль для полей ввода */
+.auth-form input[type="text"],
+.auth-form input[type="tel"],
+.auth-form input[type="email"],
+.auth-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f1f1f1;
+}
+
+/* Стиль для кнопки отправки формы */
+.auth-form button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Стиль для ошибок валидации */
+.auth-form .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 400px;
+}
+.auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Стиль для основного контейнера формы регистрации */
+.registration-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* форма растянется на всю высоту экрана */
+}
+
+/* Стиль для формы регистрации */
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 400px;
+}
+
+/* Стиль для заголовка формы */
+.registration-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Стиль для полей ввода */
+.registration-form input[type="text"],
+.registration-form input[type="tel"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f1f1f1;
+}
+
+/* Стиль для кнопки отправки формы */
+.registration-form button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Стиль для ошибок валидации */
+.registration-form .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
